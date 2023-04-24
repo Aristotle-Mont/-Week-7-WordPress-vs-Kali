@@ -13,7 +13,7 @@ Objective: Find, analyze, recreate, and document five vulnerabilities affecting 
     - Tested in version: <=4.2
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: 
-    ![](Comment.gif)
+    ![](comments.gif)
   - [ ] Steps to recreate: Commented on a post with the a message that was greater than 64kb causing the html to be displayed on the page where javascript could be inserted to attack.
   - [ ] Affected source code:
 2. (Required) Authenticated Stored Cross-Site Scripting (XSS)
@@ -22,7 +22,7 @@ Objective: Find, analyze, recreate, and document five vulnerabilities affecting 
     - Tested in version: <= 4.2.2
     - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough:
-    ![](OnMouseOver.gif) 
+    ![](Over.gif) 
   - [ ] Steps to recreate: Made a post with the body having an onMouseOver() which would run whatever script if a viewer mouses over the item.
   - [ ] Affected source code:
 3. (Required) Authenticated Shortcode Tags Cross-Site Scripting (XSS)
@@ -31,7 +31,7 @@ Objective: Find, analyze, recreate, and document five vulnerabilities affecting 
     - Tested in version:<= 4.3
     - Fixed in version: 4.2.5
   - [ ] GIF Walkthrough: 
-    ![](shortcodeTag.gif) 
+    ![](codeTag.gif) 
   - [ ] Steps to recreate: Made a post with the body using shortcode tags and having an onMouseOver() which would run whatever script if a viewer mouses over the item.
   - [ ] Affected source code:
 4. (Optional) User Enumeration
@@ -40,7 +40,7 @@ Objective: Find, analyze, recreate, and document five vulnerabilities affecting 
     - Tested in version: 4.2
     - Fixed in version: 
   - [ ] GIF Walkthrough: 
-    ![](userEnumeration.gif)
+    ![](userEnum.gif)
   - [ ] Steps to recreate: Putting in a username that exists will tell you that the password is incorrect letting you know that the user exists
   - [ ] Affected source code:
 5. (Optional) Posting iFrame
